@@ -159,7 +159,7 @@ button:active
 @media screen and (width : 300px) {
     .main-ctn
     {
-        width: 100%;
+        width: 100vh;
         height: 90%;
     }
 }
