@@ -157,6 +157,9 @@ button:active
 }
 
 @media screen and (width : 400px) {
+    .main-div
+    {
+        height: 90vh;
     .main-ctn
     {
         width: 100%;
