@@ -1,0 +1,164 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+}
+
+.main-div
+{
+    width: 100%;
+    height: 100vh;
+
+    background: rgb(160, 160, 160);
+
+    display: flex;
+
+    position: absolute;
+}
+.main-ctn
+{
+    width: 300px;
+    height: 100vh;
+
+    background: rgb(30, 30, 30);
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Head */
+.head
+{
+    width: 100%;
+    height: 20%;
+    margin: 10px 0 10px 0;
+
+    background: #000;
+
+    cursor: default;
+}
+.head-text
+{
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+}
+h3 {
+    margin: 0;
+}
+
+.head-calculator-display-box
+{
+    width: 100%;
+    height: 70%;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.displayBox
+{
+    width: 90%;
+    height: 100%;
+    margin: 0;
+
+    color: #fff;
+    font-size: 27px;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Body */
+.body {
+    width: 100%;
+    height: 70%;
+    padding: 10px 0;
+
+    background: rgb(0, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid-line
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+
+    width: 85%;
+    height: 80%;
+}
+
+.second-grid-ctn
+{
+    width: 85%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-grid
+{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    
+    background: rgb(80, 80, 80);
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+
+    transition: background 0.5s;
+}
+.button-clear, .button-delete 
+{
+    width: 100%;
+    border-radius: 10px;
+}
+button:hover 
+{
+    background: rgb(180, 180, 180)
+}
+button:active 
+{
+    background: rgb(250, 250, 250);
+}
+
+@media screen and (width : 300px) {
+    .main-ctn
+    {
+        width: 100%;
+    }
+}
