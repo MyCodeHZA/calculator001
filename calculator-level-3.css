@@ -25,7 +25,7 @@ body
     width: 300px;
     height: 100vh;
 
-    background: rgb(50, 30, 30);
+    background: rgb(30, 30, 30);
 
     position: absolute;
     left: 50%;
@@ -156,10 +156,10 @@ button:active
     background: rgb(250, 250, 250);
 }
 
-@media screen and (width : 300px) {
+@media screen and (width : 400px) {
     .main-ctn
     {
-        width: 100vh;
-        height: 90%;
+        width: 100%;
+        height: 90vh;
     }
 }
