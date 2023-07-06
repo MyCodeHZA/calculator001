@@ -9,17 +9,7 @@ body
     display: flex;
 }
 
-.main-div
-{
-    width: 100%;
-    height: 100vh;
 
-    background: #fff;
-
-    display: flex;
-
-    position: absolute;
-}
 .main-ctn
 {
     width: 300px;
